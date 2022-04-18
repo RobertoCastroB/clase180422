@@ -1,0 +1,2 @@
+Ejecuta thread1 y thread2. Nota que thread2 crea 5 procesos, pero ¿por qué no se ven los mensajes? Quita el comentario en la línea 29 del sleep ¿por qué ahora sí se ven los mensajes?
+R= Debido a que sleep() da tiempo para  que los procesos se ejecuten, ya que los threads viven en el mismo proceso y es por ello que se salta hasta el siguiente print.
